@@ -43,6 +43,7 @@ onMounted(() => {
     fragmentShader: fshader
 
   });
+  console.log(12)
   const cube = new THREE.Mesh(geometry, material);
   scene.add(cube);
   Controls = new OrbitControls(camera, renderer.domElement);
